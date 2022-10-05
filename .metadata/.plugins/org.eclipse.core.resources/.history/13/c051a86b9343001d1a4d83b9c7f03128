@@ -1,0 +1,31 @@
+package fa.training.main;
+
+import java.util.Scanner;
+
+import fa.training.entities.Shape;
+
+public class ShapeTest {
+	public static void InputInt(){
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			try {
+				int a = Integer.parseInt(sc.nextLine().trim());
+				if(a>0) {
+					return;
+				}else {
+					System.out.println("Number must be greater than 0");
+					System.out.println("Enter again: ");
+				}
+			}catch (Exception e){
+				System.out.println("Number must be Integer");
+				System.out.println("Enter again: ");
+			}
+		}
+	}
+	public static void main(String[] args) {
+		int length = InputInt();
+	}
+	
+		
+}
+}

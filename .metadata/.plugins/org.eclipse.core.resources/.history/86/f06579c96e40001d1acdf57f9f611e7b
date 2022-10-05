@@ -1,0 +1,13 @@
+package Ex1;
+
+public abstract class Shape {
+	abstract void inputData();
+
+	abstract double getPerimeter();
+
+	abstract double getArea();
+
+	protected void printResult() {
+		System.out.println("=====Calculator Shape Progarmer=====");
+	}
+}

@@ -1,0 +1,26 @@
+package fa.training.entities;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class ShapeManagement {
+	static Scanner sc = new Scanner((System.in));
+	static List<Rectangle> list = new ArrayList<>();
+	public static void InputInt(String mess) {
+		while (true) {
+			try {
+				System.out.println(mess);
+				int a = Integer.parseInt(sc.nextLine().trim());
+				if (a > 0) {
+					return;
+				} else {
+					System.out.println("Number must be greater than 0");
+					System.out.println("Enter again: ");
+				}
+			} catch (Exception e) {
+				System.out.println("Number must be Integer");
+				System.out.println("Enter again: ");
+			}
+		}
+	}
+}

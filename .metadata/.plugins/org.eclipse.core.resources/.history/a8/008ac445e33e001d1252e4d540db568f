@@ -1,0 +1,7 @@
+package fa.training.main;
+import fa.training.entities.Truck;
+import fa.training.entities.Ford;
+import fa.training.entities.Sedan;
+public class MyOwnAutoShop {
+	
+}

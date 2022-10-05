@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.sound.midi.Soundbank"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.metal.MetalBorders.Flush3DBorder"/>
+<fullyQualifiedTypeName name="java.io.Flushable"/>
+<fullyQualifiedTypeName name="fa.training.entities.Teacher"/>
+<fullyQualifiedTypeName name="fa.training.entities.Car"/>
+<fullyQualifiedTypeName name="fa.training.entities.Truck"/>
+<fullyQualifiedTypeName name="fa.training.entities.Ford"/>
+<fullyQualifiedTypeName name="fa.training.entities.Sedan"/>
+<fullyQualifiedTypeName name="java.util.LinkedList"/>
+<fullyQualifiedTypeName name="fa.training.abstraction.Employee"/>
+<fullyQualifiedTypeName name="javax.swing.SortingFocusTraversalPolicy"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Ex1.Triangle"/>
+<fullyQualifiedTypeName name="Ex1.Rectangle"/>
+<fullyQualifiedTypeName name="Ex1.Shape"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="Ex1.Circle"/>
+<fullyQualifiedTypeName name="Ex2.Person"/>
+<fullyQualifiedTypeName name="Ex2.Wallet"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="fa.training.entities.ShapeManagement"/>
+<fullyQualifiedTypeName name="fa.training.entities.Shape"/>
+<fullyQualifiedTypeName name="fa.training.entities.Rectangle"/>
+</qualifiedTypeNameHistroy>

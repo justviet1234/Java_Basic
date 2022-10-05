@@ -1,0 +1,18 @@
+package fa.training.main;
+import fa.training.entities.Truck;
+import fa.training.entities.Ford;
+import fa.training.entities.Sedan;
+public class MyOwnAutoShop {
+	public static void main(String[] args) {
+		Truck truck1 = new Truck(100,900,"red",2200);
+		System.out.println(truck1);
+		System.out.println("Discount Price: "+truck1.getSalePrice());
+		Ford ford1 = new Ford(100,900,"yellow",2022,300);
+		System.out.println(ford1);
+		Ford ford2 = new Ford(300,1500,"blue",2022,300);
+		System.out.println("Discount Price: "+ford1.getSalePrice());
+		Sedan sedan1 = new Sedan(100,900,"orange",30);
+		System.out.println(sedan1);
+		System.out.println("Discount Price: "+sedan1.getSalePrice());
+	}
+}

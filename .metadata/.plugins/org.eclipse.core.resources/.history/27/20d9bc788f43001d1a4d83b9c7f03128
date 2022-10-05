@@ -1,0 +1,37 @@
+package fa.training.entities;
+
+public class Rectangle implements Shape {
+	double len;
+	double width;
+
+	@Override
+	public int calculatePerimeter() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int calculateArea() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getLength() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int getWidth() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void setLengthWidth(int len, int width) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

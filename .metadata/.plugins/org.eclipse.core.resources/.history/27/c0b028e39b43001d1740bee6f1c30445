@@ -1,0 +1,42 @@
+package fa.training.main;
+
+import java.util.Scanner;
+
+import fa.training.entities.Rectangle;
+import fa.training.entities.Shape;
+
+public class ShapeTest {
+	public static int InputInt() {
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			try {
+				int a = Integer.parseInt(sc.nextLine().trim());
+				if (a > 0) {
+					return a;
+				} else {
+					System.out.println("Number must be greater than 0");
+					System.out.println("Enter again: ");
+				}
+			} catch (Exception e) {
+				System.out.println("Number must be Integer");
+				System.out.println("Enter again: ");
+			}
+		}
+	}
+
+	public static void main(String[] args) {
+		System.out.print("Enter length: ");
+		int length = InputInt();
+		System.out.print("Enter width: ");
+		int width = InputInt();
+		System.out.print("Lenth: " + length);
+		System.out.println("");
+		System.out.print("Width: " + width);
+		System.out.println("");
+		System.out.print("Perimeter: "+(length+width)*2);
+		System.out.println("");
+		System.out.print("Area: "+(length*width));
+		
+
+}
+}

@@ -1,0 +1,71 @@
+package Ex1;
+
+import java.util.Scanner;
+
+public class rectangle extends Shape {
+	double lenght;
+	double width;
+
+	public rectangle() {
+	}
+
+	public rectangle(double lenght, double width) {
+		super();
+		this.lenght = lenght;
+		this.width = width;
+	}
+
+	public double getLenght() {
+		return lenght;
+	}
+
+	public void setLenght(double lenght) {
+		this.lenght = lenght;
+	}
+
+	public double getWidth() {
+		return width;
+	}
+
+	public void setWidth(double width) {
+		this.width = width;
+	}
+
+	@Override
+	void inputData() {
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			try {
+			System.out.println("Please input Lenght of Triangle: ");
+			sideA = Double.parseDouble(sc.nextLine().trim());
+			System.out.println("Please input side B of Triangle: ");
+			sideB = Double.parseDouble(sc.nextLine().trim());
+			if (sideA > 0 && sideB > 0 && sideC > 0 && ((sideA+sideB)>sideC) && ((sideA+sideC)>sideB) && ((sideB+sideC)>sideA)) {
+				return;
+			}else {
+				System.out.println("This is not a Triangle");
+				System.out.println("Enter again:");
+			}
+			}catch (Exception e) {
+				 System.out.println("Side of Triangle must be Double");
+	             System.out.println("Enter again:");
+			}
+		}
+	}
+
+	@Override
+	double getPerimeter() {
+		return 0;
+	}
+
+	@Override
+	double getArea() {
+		return 0;
+	}
+
+	@Override
+	void printResult() {
+
+	}
+
+}
