@@ -28,4 +28,5 @@
 <fullyQualifiedTypeName name="fa.training.entities.ShapeManagement"/>
 <fullyQualifiedTypeName name="fa.training.entities.Shape"/>
 <fullyQualifiedTypeName name="fa.training.entities.Rectangle"/>
+<fullyQualifiedTypeName name="Practice.Person"/>
 </qualifiedTypeNameHistroy>

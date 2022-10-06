@@ -1,9 +1,0 @@
-package fa.training.main;
-import fa.training.entities.Truck;
-import fa.training.entities.Ford;
-import fa.training.entities.Sedan;
-public class MyOwnAutoShop {
-	public static void main(String[] args) {
-		Truck truck1 = new Truck(100,900,"red",2200);
-	}
-}
