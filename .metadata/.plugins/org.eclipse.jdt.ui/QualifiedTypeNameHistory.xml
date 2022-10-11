@@ -32,9 +32,10 @@
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
 <fullyQualifiedTypeName name="entities.Department"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="fa.tranning.service.DepartmentController"/>
 <fullyQualifiedTypeName name="fa.tranning.utils.validation"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="StringDemo.Animal"/>
 </qualifiedTypeNameHistroy>
