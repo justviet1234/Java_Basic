@@ -1,4 +1,4 @@
-package BinarySearchTree;
+package BSTree;
 
 public class Main {
 	 public static void main(String[] args) {
@@ -21,8 +21,6 @@ public class Main {
 	        System.out.println("4.Test breadth-first traversal:");
 	        t.breadth(t.root);
 	        System.out.println();
-
-	        //Xóa
 	       
 	        System.out.println("5.Test delete by copying:");
 	        t.deleByCopy(10);
