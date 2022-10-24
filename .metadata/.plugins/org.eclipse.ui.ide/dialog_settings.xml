@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="D:\Eclipse\Java_Basic\jdbc_project_demo"/>
 		<item value="D:\FileNghich\ThanhVP3_BinarySearchTree"/>
 		<item value="D:\Eclipse\project\BSTree_VietNH30\src\BSTree"/>
 	</list>
